@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Redmine Ticket Searcher for Chrome™</title>
+    <meta HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="stylesheets/main.css" type="text/css" media="all">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+  </head>
+  <body>
+    <div class='main'>
+      <div class='header'>
+        <h1 style='font-size:1.5em;'>Redmine Ticket Searcher for Chrome™</h1>
+      </div>
+      <div class='content'>
+        <form onsubmit="javascript:window.close();">
+          <fieldset>
+            <div class="clearfix">
+              <div class="left">
+                <label>Server Url </label>
+              </div>
+              <div class="right">
+                <input name="server-url" id="server-url" class="text" placeholder="http://www.redmine.org/" autofocus="true" />
+              </div>
+            </div>
+            <div class="clearfix">
+              <div class="left">
+                <label>Project name</label>
+              </div>
+              <div class="right">
+                <input name="project-name" id="project-name" class="text" placeholder="project name" />
+              </div>
+            </div>
+            <div class="buttons">
+            <input value="Save" class="button save" type="submit" />
+            </div>
+		  </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

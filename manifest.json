@@ -1,0 +1,17 @@
+{
+  "name": "GRedmine",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "GRedmineはチケット番号で簡単に検索できるツールです。",
+  "icons": {
+      "16": "redmine_search_16.png",
+      "48": "redmine_search_48.png",
+      "128": "redmine_search_128.png"
+  },
+  "options_page": "options.html",
+  "browser_action": {
+      "default_icon": "redmine_search_16.png",
+      "default_title": "GRedmine",
+      "default_popup": "GRedmine.html"
+  }
+}
